@@ -12,9 +12,7 @@ html {
   margin: 0;
   overflow-y: hidden;
 }
-#myaudio{
-  visibility: hidden;
-}
+
 .kontener2 {
   padding: 20px;
   text-align: center;
