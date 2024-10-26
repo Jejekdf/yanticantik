@@ -1,11 +1,11 @@
 .ml1 {
     margin-top: 10%;
-    color: #404040;
+    color: #FF6347; /* Warna cerah untuk teks */
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
-    font-size: 1.2em;
+    font-size: 1.5em; /* Ukuran font lebih besar untuk kesan meriah */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Efek bayangan */
 }
-
 
 .ml1 .letter {
     display: inline-block;
@@ -24,9 +24,9 @@
     opacity: 0;
     position: absolute;
     left: 0;
-    height: 3px;
+    height: 4px; /* Tinggi garis sedikit lebih besar */
     width: 100%;
-    background-color: #404040;
+    background-color: #FFD700; /* Warna emas untuk garis */
     transform-origin: 0 0;
 }
 
@@ -39,10 +39,10 @@
 }
 
 .ml2 {
-    color: #404040;
+    color: #FF69B4; /* Warna cerah untuk teks */
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
-    font-size: 1em;
+    font-size: 1.2em; /* Ukuran font lebih besar untuk kesan meriah */
 }
 
 .ml2 .letter {
