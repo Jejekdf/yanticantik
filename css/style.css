@@ -159,7 +159,6 @@ section.after {
   cursor: pointer;
   background: url(../gambar/menu.png) no-repeat center;
   background-size: 44px;
-  transition: background-image 0.3s ease;
 }
 
 .tombol_menu:active {
