@@ -1,3 +1,7 @@
+body {
+    background-color: #f9f9f9; /* Latar belakang terang untuk suasana ceria */
+}
+
 .ml1 {
     margin-top: 10%;
     color: #FF6347; /* Warna cerah untuk teks */
@@ -48,4 +52,33 @@
 .ml2 .letter {
     display: inline-block;
     line-height: 1em;
+}
+
+/* Efek Confetti */
+@keyframes confetti {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100vh); }
+}
+
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #FFD700; /* Warna confetti */
+    animation: confetti 3s infinite; /* Durasi dan pengulangan animasi */
+}
+
+/* Tambahkan variasi warna untuk confetti */
+.confetti:nth-child(2) { background-color: #FF6347; }
+.confetti:nth-child(3) { background-color: #FF69B4; }
+.confetti:nth-child(4) { background-color: #00BFFF; }
+.confetti:nth-child(5) { background-color: #32CD32; }
+
+/* Gaya dan posisi untuk confetti */
+@media (min-width: 768px) {
+    .confetti {
+        left: calc(100% * var(--i));
+        top: -10%;
+        animation-delay: calc(-1s * var(--i));
+    }
 }
