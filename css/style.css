@@ -162,19 +162,10 @@ section.after {
   transition: background-image 0.3s ease;
 }
 
-.tombol_menu.open {
-  background: url('../gambar/close.png') no-repeat center; 
-  background-size: 44px;
+.tombol_menu:active {
+  opacity: 0.2;
 }
 
-.close-button {
-  display: none; /* Sembunyikan tombol close secara default */
-}
-
-/* Tampilkan tombol close ketika section aktif */
-.dalemnya_halaman.active .close-button {
-  display: block; /* Tampilkan tombol close jika section aktif */
-}
 
 
 .judul_halaman {
