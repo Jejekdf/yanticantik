@@ -1,13 +1,14 @@
 @media (min-width: 300px) and (max-width: 640px) {
     .ml1 {
-        margin-top: 20vh; /* Menggunakan vh untuk responsivitas */
-        transition: margin-top 0.3s ease; /* Transisi halus */
+        margin-top: 10vh; /* Dikurangi lagi menjadi 10vh */
+        transition: margin-top 0.3s ease;
     }
 
     .kontener2 {
+        margin-top: 5vh; /* Dikurangi lagi menjadi 2vh */
         padding: 10px;
         text-align: center;
-        margin-top: 10vh; /* Mengurangi margin */
-        transition: margin-top 0.3s ease; /* Transisi halus */
+        transition: margin-top 0.3s ease;
     }
 }
+
