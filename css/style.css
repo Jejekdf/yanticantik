@@ -13,7 +13,7 @@ html {
   overflow-y: hidden;
 }
 #myaudio{
-  display: none;
+  visibility: hidden;
 }
 .kontener2 {
   padding: 20px;
