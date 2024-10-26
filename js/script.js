@@ -1,12 +1,7 @@
 var pages = new Array('halaman1', 'halaman2', 'halaman3', 'halaman4');
 
 function klikMenu() {
-  var menuButton = document.getElementsByClassName('tombol_menu')[0];
-  var kontener = document.getElementsByClassName('dalemnya_kontener')[0];
-
-  // Toggle the class to show or hide the cross icon
-  menuButton.classList.toggle('open');
-  kontener.classList.toggle('buka_menu');
+  document.getElementsByClassName('dalemnya_kontener')[0].classList.toggle('buka_menu');
 }
 
 function PindahKeHalaman(page) {
