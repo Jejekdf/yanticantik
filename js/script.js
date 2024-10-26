@@ -1,5 +1,5 @@
 var pages = new Array('halaman1', 'halaman2', 'halaman3', 'halaman4');
-
+const audio = document.getElementById('myaudio');
 function klikMenu() {
   document.getElementsByClassName('dalemnya_kontener')[0].classList.toggle('buka_menu');
 }
@@ -16,3 +16,6 @@ function PindahKeHalaman(page) {
   dalemnya_kontener.classList.remove('buka_menu', 'page-halaman1', 'page-halaman2');
   dalemnya_kontener.classList.add('page-' + pages[page]);
 }
+audio.addEventListener,('ended',function() {
+  window.close();
+})
