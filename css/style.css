@@ -167,6 +167,15 @@ section.after {
   background-size: 44px;
 }
 
+.close-button {
+  display: none; /* Sembunyikan tombol close secara default */
+}
+
+/* Tampilkan tombol close ketika section aktif */
+.dalemnya_halaman.active .close-button {
+  display: block; /* Tampilkan tombol close jika section aktif */
+}
+
 
 .judul_halaman {
   color: white;
